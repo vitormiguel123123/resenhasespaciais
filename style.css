@@ -1,0 +1,257 @@
+body.home {
+    background-image: url("img/cinema.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+body.contato {
+    background-image: url("img/halaxia.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+body.creditos {
+    background-image: url("img/espaço67.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+body.sobre {
+    background-image: url("img/fuckyeah.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+body.biblio {
+    background-image: url("img/heating.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+h1.main {
+    font-family: "Allerta", sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 0.95;
+    margin-bottom: 25px;
+	color: white;
+}
+h2.deixe {
+	color: white;
+}
+
+h4.sub { 
+    color: white;
+    font-family: "Bahnschrift Condensed", Times, serif;
+}
+
+ul {
+    background-color: #f8f9fa; 
+    padding: 1px;           
+    border: 0px solid #ccc;
+    border-radius: 17px;
+    width: 670px;           
+}
+
+ul li {
+    background-color: #f8f9fa; 
+}
+
+.card {
+    width: 80%;
+    margin: 10px auto;
+}
+
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+  }
+
+  .cards-container .card {
+    width: 18rem;
+  }
+
+  .cards-container .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+textarea {
+    resize: none;
+    width: 40%;
+    height: 120px;
+    padding: 10px;
+    font-size: 14px;
+}
+img{
+	width: 30%
+}
+h1.title {
+	font-family: "Century Gothic", Times, serif;
+	color: black;
+	}
+h4.subtitle { 
+	color: black;
+	font-family: "Century Gothic", Times, serif;
+}
+h5 {
+	font-family: "Bakersville Old Face", serif
+}
+h5.rod {
+	font-family: "Bakersville Old Face", serif;
+	font-size: 13px;
+}
+li.img2 {
+	align-content: center-right;
+	background-color: #f8f9fa; 
+	width: 360px;
+	padding: 5px
+}
+div.imagem {
+	object-fit: cover;
+	vertical-align: middle;
+}
+div.conc {
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+div.conc {
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;
+}
+
+div.imagem {
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+div.imagem img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+div.fogue {
+	width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+div.fogue img {
+	display: block;
+    width: 100%;
+    height: auto;
+}
+
+div.text {
+    width: 100%;
+    max-width: 900px;
+}
+
+
+div.text2 {
+    flex: 0 1 900px;
+}
+
+h1.thing {
+    color: black;
+    font-family: "Helvetica";
+    font-weight: bold;
+    margin-top: 0;
+}
+
+p.cluh {
+    color: black;
+    font-family: "Modern";
+}
+.content-card {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 20px;
+}
+button {
+	background-color: FFFFFF; 
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	font-family: "Modern";
+}
+.foot {
+    background-color: white;
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.foot h5 {
+    margin: 0;
+	font-family: "Arial";
+}
+p.imag {
+	font-family: "Arial";
+	font-size: 12px;
+}
+.foot {
+    position: relative;
+}
+
+.back-to-top {
+    position: absolute;
+    right: 30px;
+    top: 110%;
+    transform: translateY(-50%);
+}
+
+.back-to-top img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.li nav-thang {
+	width: 20px
+}
+.ul dropdown-menu show {
+	width: 250px
+}
